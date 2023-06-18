@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+    margin: 0;
+    
+}
+button {
+    user-select:none;
+}
+
+.no {
+    opacity: 0;
+    user-select:none
+}
+.backwood {
+    width: 78px;
+    height: 0.2px;
+    opacity: 0.4;
+    position: absolute;
+    display: none;
+    margin-left: -40px;
+    margin-top: 25px;
+    background-color: black;
+    transform: rotate(-45deg);
+}
+.pack {
+    margin-top:10px;
+    padding:5px 5px
+}
+.yPost {
+    color:black;font-weight:bold
+}
+.myPost {
+    font-weight:bold;
+    text-align:center;
+    padding: 0px 15px;
+    max-width: 1200px;
+    width:100%;
+    margin:auto;
+}
+.topbutton {
+    color:black;
+    padding: 10px 18px;
+    right: 5px;
+    bottom: 70px;
+    border-radius: 50%;
+    background-color: #04AA6d;
+    color: white;
+    transition: 0.5s;
+    outline:none;
+    border:none;
+    box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    z-index: 999;
+    font-weight: bold;
+    font-size: 22px;;
+}
+.post {
+    max-width:100%;
+    left:0;
+    right:0;
+    width:100%
+}
+
+.aa::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.pv::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+.fa-instagram:hover {
+    animation: fai 0.5s ease-out;;
+}
+.fa-telegram:hover {
+    animation: fai 0.5s ease-out;;
+}
+.fa-youtube:hover {
+    animation: fai 0.5s ease-out;;
+}
+.fa-github:hover {
+    animation: fai 0.5s ease-out;;
+}
+@keyframes fai {
+    0% {
+        opacity:0;
+    }
+}
+.help:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-out;
+}
+.help {
+    border: none;
+    outline: none;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    color: black;
+    border: 1px solid #888;
+    border-radius: 50%;
+    right: 5px;
+    bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 999;
+    padding: 15px 22px;
+}
+.myPv {
+    float:left;
+    padding: 5px;
+}
+#pv1 {
+    width: 100%;;
+}
+.fet {
+    font-size:20px;
+    font-weight:500;
+}
+.myAA {
+    float:left;
+    width: 50%;
+    padding: 10px;
+}
+
+#s1, #s2, #s3, #s4 {
+    cursor: pointer;
+}
+     
+
+.bad {
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999;
+    background-color: ;
+    width:100%;
+}
+.gWood {
+    width: 60px;
+    height:60px;
+    border-bottom-right-radius: 150%;
+    background-image: linear-gradient(whitesmoke,  gray);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    opacity:0.5;
+    border-top-left-radius: 100px;
+    position:absolute;
+    z-index:3;
+}
+#maz:hover {
+    transition: 0.5s ease;
+    opacity: 0.8;
+}
+.gWood2 {
+    width: 60px;
+    height:60px;
+    opacity: 0.5;
+    border-bottom-right-radius: 150%;
+    background-image: linear-gradient(whitesmoke,  gray);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    bottom: 0;
+    right: 0;
+    border-top-left-radius:150%;
+    border-bottom-right-radius: 10px;
+    position:absolute;
+    z-index:3;
+}
+.bad a {
+    display: block;
+    color: blue;
+    float: left;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 15px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.btn0:hover {
+    animation: op 0.3s ease-in;
+}
+
+@keyframes op {
+    0% {
+        opacity:0.8
+    }
+}
+
+.btn0 {
+    background-color: blue;
+    color: white;
+    user-select: none;
+    font-size: 17px;
+    padding: 5px 20px;
+    font-weight: 570;
+    cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.rap::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+.myRap {
+    float: left;
+    width: 50%;
+}
+
+.myEnd::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+.yourEnd {
+    color: white;
+    width: 33.33%;
+    float:left;
+    padding: 15px;
+}
+
+.end {
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.myWood {
+    max-width: 360px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    animation:  myWood 0.3s ease;
+    padding: 5px 30px;
+    border-radius: 5px;
+    
+}
+
+        
+.awow {
+    background-color: rgb(0, 128, 255);
+    color: white;
+    outline: none;
+    font-weight: bold;
+    border: 1px solid transparent;
+
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    font-size:17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.awow:hover {
+    border: 1px solid rgba(0,0,0,0.2);
+    opacity: 0.8;
+}
+
+@keyframes awow {
+        0% {
+            opacity: 0;;
+    }
+}
+
+
+#myInput {
+    width: 100%;;
+    padding: 10px 7px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;;
+}
+#myInput2 {
+    width: 100%;;
+    padding: 10px 7px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;;
+}
+
+.wood {
+    position: absolute;
+    top: 0;
+    right:0;
+    left:0;
+    padding: 15px;;
+    bottom:0;
+    background-color: white;;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;        
+    z-index: 999;
+}
+
+@media screen and (max-width:460px) {
+    .myWood {
+        padding:20px;
+    }
+}
+    @media screen and (max-width:425px) {
+        .wood {
+            padding: 0;
+    }             
+        .myWood {
+            border-radius: 20px;
+    }  
+    .gWood {
+        border-top-left-radius: 100px;
+    }
+}
+@media screen and (max-width:420px) {
+    .myWood {
+        border:none
+    }
+
+}
