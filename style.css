@@ -1,0 +1,1007 @@
+body {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior:smooth;
+}
+.techno::after {
+    content:"";
+    clear:both;
+    display: table;
+}
+.myTechno {
+    float: left;
+    width: 50%;;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content::after {
+    content:"";
+    clear:both;
+    display: table;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+.technology::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+.about {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+.myAbout {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.imMahdi {
+    width: 300px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.2);
+    transition: 1s;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    animation: imMahdi 0.3s;
+    
+}
+
+#dollar {
+    transition: 0.3s;
+}
+
+#dollar:hover {
+    background-color: cyan;
+}
+
+@keyframes imMahdi {
+    0% {
+        transform:scale(0);
+        opacity: 0;
+    }
+}
+.myTechnology {
+    float:left;
+    width: 50%;
+    padding: 15px;
+}
+.product::after {
+    content:"";
+    clear:both;
+    display: table;;
+}
+.myProduct {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    color: black;
+}
+.progress {
+    position:relative;
+    width: 100%;
+    border-radius: 50px;
+    height: 13px;
+    background-color: white;
+    border:1px solid rgba(0,0,0,0.2);
+}
+#p1 {
+    width: 88%;
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+} 
+#p2 {
+    width: 75%;
+    background-color: rgb(26, 74, 233);
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+} 
+#p3 {
+    width: 55%;
+    background-color: gold;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+} 
+#p4 {
+    width: 65%;
+    background-color: rgb(218, 17, 218);
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+} 
+#p5 {
+    width: 70%;
+    background-color: #04AA6D;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+} 
+.production {
+    background-color: whitesmoke;
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.myContent {
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+.buy {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    font-weight: bold;
+}
+.buy:hover {
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.tec {
+    display: none;
+}
+
+.menu {
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-bottom:1px solid rgba(0,0,0,0.2);;
+    z-index: 99;
+    position: fixed;
+}
+.image {
+    height: 670px;
+}
+
+.myImage {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius:50%;
+    margin-top: -20px;
+}
+.menu a {
+    display: block;
+    color: black;
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 30px 15px;
+}
+.switch {
+    width: 70px;
+    height: 30px;
+    position:relative;
+    display: inline-block;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(194, 194, 194);
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.yourA1 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: springgreen;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.myA2:hover .yourA2 {
+    background-color: springgreen;
+    transform: scale(0);
+}
+.yourA2 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: springgreen;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.menuButton {
+    width: 100%;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.menuButton .buttonMenu {
+    background-color:rgb(255, 94, 0);
+    color:black;
+    transition: 0.3s;
+    border-radius: 12px;
+    outline:none;
+    display: block;
+    float: left;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 3px 20px;
+}
+
+#buttonMenu1:hover {
+    opacity: 0.8;
+}
+
+#buttonMenu2:hover {
+    opacity: 0.8;
+}
+
+.myA1:hover .yourA1 {
+    transform: scale(0);
+}
+.yourA4 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: springgreen;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    transition: 0.5s;
+}
+.yourA6 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: springgreen;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    transition: 0.5s;
+}
+.myA6:hover .yourA6 {
+    transform: scale(0);
+}
+.yourA8 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: springgreen;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    transition: 0.5s;
+}
+.myA8:hover .yourA8 {
+    transform: scale(0);
+}
+.yourA7 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: springgreen;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    transition: 0.5s;
+}
+.myA7:hover .yourA7 {
+    transform: scale(0);
+}
+.yourA5 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: springgreen;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    transition: 0.5s;
+}
+.myA5:hover .yourA5 {
+    transform: scale(0);
+}
+.myA4:hover .yourA4 {
+    transform: scale(0);
+}
+.yourA3 {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: springgreen;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.myA3:hover .yourA3 {
+    transform: scale(0);
+}
+
+.myInfo::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+.info {
+    float:left;
+    width:100%;
+}
+
+.myGreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenEyes {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    position:fixed;
+    opacity: 0;
+    bottom: 0;
+    left:0;
+    transform: translateY(300px);
+    right:0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    padding:  5px 15px;
+}
+
+.learning {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    width:100%;
+    height: 100%;
+    position:fixed;
+    z-index:100;
+    display: none;
+}
+
+.myLearning {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    position: fixed;
+}
+.yourLearning::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.yLearning {
+    float:left;
+    width:25%;
+    padding:20px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-bottom:30px
+}
+
+.yLearning:hover {
+    background-color: whitesmoke
+    
+}
+
+
+.up {
+    border:solid black;
+    border-width:0px 3px 3px 0px;
+    padding:5px;
+    transform: rotate(-135deg);
+    display:inline-block;
+    margin-top: 10px;
+}
+
+.sButton {
+    display: none;
+    outline:none;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: white;
+    color: black;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    z-index: 80;
+    width:50px;
+    height:50px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s;
+    animation: sButton 0.5s;
+}
+
+.darkSide {
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.8);
+    position:fixed;
+    z-index: 99;
+    display: none;
+}
+
+.store::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+.myStore {
+    float:left;
+    width:25%;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.myStore {
+    background-color: whitesmoke;
+}
+
+
+.sButton:hover {
+    transform: scale(1.05);
+}
+
+@keyframes sButton {
+    0% {
+        transform: scale(0);
+    }
+}
+
+.myContact {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 5px 30px;
+    border-radius: 12px;
+    margin-top: -40px;
+}
+
+.green {
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.8);
+    position:fixed;
+    width: 0;
+    height: 100%;
+}
+
+.slider::before {
+    content: "";
+    top: 5px;
+    left: 7px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    transform: scale(0.95);
+    z-index:9;
+    position: absolute;
+    transition: 0.5s;
+}
+.social {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 60px;
+    transform: translateY(-60px);
+    position:fixed;
+    z-index:9;;
+}
+#myinput {
+    width: 100%;
+}
+#mySocial {
+    transition: 0.5s;
+}
+.social a {
+    display:block;
+    float:left;
+    color:white;
+    text-decoration:none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    position: absolute;
+    z-index: 999
+    ;
+}
+.layer {
+    display: none;
+}
+#myClose {
+    display: none;
+}
+.list {
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    position: fixed;
+    background-color: whitesmoke;
+    left: 0;
+    overflow-y: auto;
+    width: 180px;
+    height: 100%;
+    z-index: 99;
+}
+.list a {
+    display: block;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-left: none;
+    border-right: none;
+}
+
+.div2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#div420 {
+    width: 70%;
+    float:left;
+    padding: 15px;
+}
+#myDiv420 {
+    width: 30%;
+    float:left;
+    padding: 15px;
+}
+
+
+.div1::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+.myDiv1 {
+    width:50%;
+    padding:15px;
+    float:left;
+}
+
+button {
+    font-weight: 500;
+}
+
+#redColor {
+    transition: 0.3s;
+    font-weight: 500;
+}
+#blackColor {
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+#redColor:hover {
+    background-color: rgb(255, 217, 0);
+}
+#blackColor:hover {
+    background-color: black;
+    color: white;
+}
+
+.dark {
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+}
+
+.myWidth {
+    width: 600px;
+}
+
+.web::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+.job::after {
+    content: "";
+    clear:both;
+    display:table;
+}
+.myJob {
+    float: left;
+}
+
+.phone {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 5px 15px;
+    width: 100%;
+}
+
+#myJob1 {
+    width: 80%;
+}
+#myJob2 {
+    width: 20%;
+    border-left: 15px solid transparent;
+}
+
+.myWeb {
+    float:left;
+    width:10%;
+    padding: 15px;
+}
+
+.myService {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    right: 0;
+    width: 100%;
+    padding: 15px;;
+}
+
+.closeIcon {
+    transition: 0.3s;
+    color: red;
+}
+
+.closeIcon:hover {
+    opacity:0.8
+}
+
+#myService {
+    transition: 0.5s ;
+}
+
+.flex {
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+.mWebsite {
+    width: 4200px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    padding: 5px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: 0.1s;
+    transform: scale(0);
+    opacity: 0;
+    border:1px solid rgba(0,0,0,0.2);
+}
+
+
+.website {
+    left: 0;
+    right:0;
+    top: 0;
+    overflow: hidden;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+
+.myContact {
+    width:180px
+}
+
+.social a:hover {
+    color: springgreen;
+}
+.toChange {
+    background-color: black;
+    color: white;
+}
+
+input:checked + .slider {
+    background-color: springgreen;
+}
+input:checked + .slider::before {
+    transform: translateX(36px);
+}
+.menu .btn {
+    font-size:16px;
+    padding: 3px 15px;
+    background-color: transparent;
+    font-weight: 500;
+    border: 1px solid transparent;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.arrow {
+    opacity: 0.9;
+    border: solid white;
+    border-width: 0px 3px 3px 0px;;
+    padding: 3px;
+    display: inline-block;
+    transform: rotate(45deg);
+
+}
+.menu .btn:hover {
+    font-size:16px;
+    padding: 3px 15px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.mahdi::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+
+.iMahdi {
+    float:left;
+    width:50%;
+    padding: 15px;
+}
+
+.iImage {
+    transform: scale(0.8);
+}
+
+.pMenu {
+    display: none;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: white;
+    overflow: hidden;
+    position: fixed;;
+}
+.pMenu a {
+    display: block;
+    color: black;
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 18px 15px;
+}
+
+.mahdiImage {
+    width:40px;
+    height:40px;
+    position:absolute;
+    right: 15px;
+    top: 10px;
+    border-radius:50%
+}
+
+@media screen and (max-width:700px) {
+    .image {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .yLearning {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:930px) {
+    #displayNone {
+        display: none;
+    }
+    #myJob1, #myJob2 {
+        width: 100%;
+    }
+    #myJob2 {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .image {
+        height: 380px;
+    }
+    .yLearning {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .myWeb {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .iMahdi {
+        width:100%;
+        padding: 30px 15px;
+    }
+}
+
+@media screen and (max-width:785px) {
+    .menu {
+        display: none;
+    }
+    .social {
+        transform: translateY(-60px);
+    }
+    .pMenu {
+        display: block;
+    }
+    #myLink1 {
+        display: none;
+    }
+    #myLink2 {
+        display: none;
+    }
+    #myLink3 {
+        display: none;
+    }
+    #myLink4 {
+        display: none;
+    }
+    #myLink5 {
+        display: none;
+    }
+    #myLink6 {
+        display: none;
+    }
+    .yourA1 {
+        display: none;
+    }
+    .yourA2 {
+        display: none;
+    }
+    .yourA3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1110px) {
+    .myProduct {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .myProduct {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+    }
+    .myContact {
+        width:100%
+    }
+}
+
+@media screen and (max-width:870px) {
+    .myStore {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .myStore {
+        width: 100%;
+    }
+}
