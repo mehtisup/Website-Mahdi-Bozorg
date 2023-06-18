@@ -1,0 +1,113 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Username </title>       
+<link rel="stylesheet" href="username.css">
+</head>
+<body>
+
+
+<div class="wood" id="yourWood">
+<br><br><br>
+
+<div style="display:flex;justify-content:center;align-items:center">
+    <h3 style="position:absolute;z-index:9;margin-top:80px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;letter: spacing 1px;px">Username</h3>
+</div>
+
+<div class="myWood">
+<div class="backwood"></div>
+<div class="gWood"></div>
+    
+<h1 class="no"></h1>
+<br><br><br>
+
+<form action="https://google.com">
+    
+    <input placeholder="Username"  required type="text" 
+    id="myInput" style="font-size:15px;font-weight:normal;margin-top:10px;border-radius:6px;border:1px solid rgba(0,0,0,0.2)">
+    
+
+    <p style="position:absolute;font-size:16px;margin-top:65px;margin-left: 150px;color:red;cursor:pointer" id="maz"></p>
+            <br>
+    <input placeholder="Password" style="font-size:15px;font-weight:normal;border-radius:6px;border:1px solid rgba(0,0,0,0.2)" required type="password" pattern=".{8,}" id="myInput2"
+             class="pack">
+<br><br>  
+    <input  type="checkbox" onclick="pFunction()"> Show Password  <br><br><br>
+    <button type="submit" class="awow" 
+    style="animation: none;width:100%;border-radius:6px;background-color:rgb(0, 162, 255);color:black;font-size:16px;
+    ;;padding:10px 5px;color:white;">Sign Up</button>
+    <br><br>
+    <p style="font-size:13px;cursor: default;"> <i class="fa fa-user" style="color:black"></i> Login with your username</p>
+    <br>
+  
+    <div style="text-align:center">
+        <p style="margin-top:-5px;user-select:none;transform:scale(0.7)"><a href="https://instagram.com/mehtisup"><i class="fa fa-instagram" id="s1" onclick="soFunction()" style="background-color:black;color:white;border-radius:10px;padding:12px 15px;font-size:30px"></i></a> <span style="opacity:0;user-select:none">..</span> <a href="https://t.me.com/mehtisup"><i id="s2" onclick="so2Function()" class="fa fa-telegram" style="background-color:black;color:white;border-radius:10px;padding:12px 15px;font-size:30px"></i></a> <span style="opacity:0;user-select:none">..</span> <a href="https://youtube.com/mehtisup"><i id="s3" onclick="so4Function()" class="fa fa-youtube" style="background-color:black;color:white;border-radius:10px;padding:12px 15px;font-size:30px"></i></a> <span style="opacity:0;user-select:none">..</span>  <a href="https://github.com/mehtisup"><i id="s4" onclick="so3Function()" class="fa fa-github" style="background-color:black;color:white;border-radius:30px;padding:12px 15px;font-size:30px;border-radius:10px"></i> </a></p>
+
+    </div>
+
+        <div class="pv">
+            <div class="myPv" id="pv1">
+ 
+        </div>
+
+</div>
+
+<div class="aa">
+    <div class="myAA"></div>   
+    <div class="myAA"></div>
+</div>
+
+</form>
+</div>
+
+</div>
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+<div class="post">
+    <footer class="myPost">
+        <p class="yPost"><i class="fa fa-copyright"></i> 
+            <span class="yPost" id="myYear"></span> <span class="yPost"> <span id="myYearr"></span> Username</span></p></footer>
+</div>
+
+<br><br><br>
+
+<script>
+function pFunction() {
+    var pass = document.getElementById("myInput2");
+
+    if (pass.type === "password") {
+        pass.type = "text";
+    } else {
+        pass.type = "password";
+    }
+}
+</script>
+
+
+<script>
+const yearr = new Date().getFullYear();
+document.getElementById("myYearr").innerHTML = yearr;
+</script>
+
+</body>
+</html>
