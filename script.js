@@ -87,8 +87,17 @@ function cGreen() {
     document.getElementById("imGreen").style.transform = "translateY(0px)"
 }
 
+
 function websiteFunction() {
-    alert("Mahdi Bozorg")
+    document.getElementById("supreme").style.display = "block";
+}
+
+function supremeFunction() {
+    document.getElementById("supreme").style.display = "none";
+}
+
+function webFunction() {
+    alert("Welcome!")
 }
 
 function cWebsite() {
@@ -120,4 +129,32 @@ function storeFunction() {
 
 function sideFunction() {
     document.getElementById("darkSide").style.display = "none";
+}
+
+
+
+
+var timer = setInterval(timerFunction, 1000);
+
+function timerFunction() {
+    document.getElementById("myDark").style.display = "block";
+    clearInterval(timer);
+}
+
+
+function dropDown() {
+    document.getElementById("dropList").classList.toggle("display");
+}
+
+window.onclick = function(event) {
+    if (!event.target.matches('.dropDown')) {
+        var list = document.getElementsByClassName("dropList");
+        var i;
+        for (i = 0 ; i < list.length ; i++) {
+            var myList = list[i];
+            if (myList.classList.contains('display')) {
+                myList.classList.remove('display')
+            }
+        }
+    }
 }
